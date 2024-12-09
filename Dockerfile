@@ -6,7 +6,7 @@ COPY package.json package-lock.json /src/
 
 RUN  npm ci --silent
 
-COPY . .
+COPY . /src/
 
 FROM node:20.11-alpine3.18 as dev
 
