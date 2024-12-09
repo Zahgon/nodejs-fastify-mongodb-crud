@@ -14,7 +14,7 @@ services:
     command: npm run start
     volumes:
       - .:/src
-      # - nodemodules:/src/node_modules
+      - nodemodules:/src/node_modules
     depends_on:
       - mongodb
 
@@ -26,5 +26,5 @@ services:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
 
-# volumes:
-#   nodemodules: {}
+volumes:
+  nodemodules: {}
