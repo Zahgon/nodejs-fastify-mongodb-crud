@@ -12,7 +12,7 @@ if (!isTestEnv && !process.env.DB_NAME) {
 
 const { dbClient, collections: { dbUsers } } = await getDb()
 
-fastify.get('/health', async (request, reply) => {
+fastify.get('/v1/health', async (request, reply) => {
     reply.code(200).send({app: 'customers', version: 'v1.0.0'})
 })
 
