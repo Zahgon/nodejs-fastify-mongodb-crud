@@ -8,11 +8,11 @@ RUN  npm ci --silent
 
 COPY . /src/
 
-FROM node:20.11-alpine3.18 as dev
+# FROM node:20.11-alpine3.18 as dev
 
 WORKDIR /src/
 
-COPY --from=build /src/node_modules node_modules
+# COPY --from=build /src/node_modules node_modules
 
 USER node
 
