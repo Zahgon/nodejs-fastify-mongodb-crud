@@ -12,6 +12,10 @@ if (!isTestEnv && !process.env.DB_NAME) {
 
 const { dbClient, collections: { dbUsers } } = await getDb()
 
+fastify.get('/health', async (request, reply) => {
+    reply.code(200).send({app: 'customers', version: 'v1.0.0'})
+})
+
 fastify.get('/v1/customers', async (request, reply) => {
     const users = await dbUsers
         .find({})
