@@ -10,7 +10,7 @@ services:
     ports:
       - "9999:9999"
     # command: npm run test
-    command: npm run test:dev
+    # command: npm run test:dev
     volumes:
       - .:/src
       - nodemodules:/src/node_modules
