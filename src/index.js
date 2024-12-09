@@ -3,7 +3,7 @@ import { getDb } from './db.js'
 import { ObjectId } from 'mongodb'
 
 const fastify = Fastify({})
-const isTestEnv = process.env.NODE_ENV === 'test'
+const isTestEnv = process.env.NODE_ENV === 'test';
 
 if (!isTestEnv && !process.env.DB_NAME) {
     console.error('[error*****]: please, pass DB_NAME env before running it!')
