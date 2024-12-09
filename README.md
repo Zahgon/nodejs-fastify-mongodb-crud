@@ -18,7 +18,7 @@ This project demonstrates how to perform CRUD operations using Node.js with the 
 1. Clone the repository:
    ```bash
    git clone https://github.com/ErickWendel/nodejs-fastify-mongodb-crud.git
-   cd nodejs-fastify-mongodb-crud
+   cd nodejs-fastify-mongodb-crud 
    ```
 
 2. Install the dependencies:
