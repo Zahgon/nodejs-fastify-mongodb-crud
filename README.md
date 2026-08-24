@@ -1,10 +1,10 @@
-# CRUD Ops with Node.js, Fastify, and MongoDB using the Node.js Test Runner
+# CRUD Ops with Node.js, Express, and MongoDB using the Node.js Test Runner
 
 ![Build Status](https://github.com/ErickWendel/nodejs-fastify-mongodb-crud/workflows/Run%20tests/badge.svg)
 
 ## Description
 
-This project demonstrates how to perform CRUD operations using Node.js with the Fastify framework and MongoDB. It includes unit tests that verify the functionality of the API endpoints and track code coverage.
+This project demonstrates how to perform CRUD operations using Node.js with the Express framework and MongoDB. It includes unit tests that verify the functionality of the API endpoints and track code coverage.
 
 ## Getting Started
 
@@ -88,6 +88,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- [Fastify](https://www.fastify.io/) - Fast and low-overhead web framework for Node.js
+- [Express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
 - [MongoDB](https://www.mongodb.com/) - NoSQL database for storing data
 - [Node.js Test Runner](https://nodejs.org/en/docs/guides/test-runner/) - Built-in test runner for Node.js
